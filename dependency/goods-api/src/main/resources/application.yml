@@ -1,0 +1,11 @@
+server:
+  port: 9200
+
+spring:
+  application:
+    name: goods-api
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7000/eureka
